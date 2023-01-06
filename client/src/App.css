@@ -1,0 +1,63 @@
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex-grow: 1;
+}
+.chat-input button {
+  margin-left: 2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  width: 100%;
+}
+
+.chats {
+  padding: 3px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.avtar {
+  height: 40px;
+  margin: 5px 10px 0px 0px;
+  border-radius: 50%;
+  border: 1px solid rgb(211, 203, 203);
+  padding: 2px;
+  background-color: rgb(228, 221, 181);
+}
+
+.chat {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 90%;
+}
+.chat p {
+  flex-grow: 1;
+}
+
+.send .avtar {
+  order: 1;
+}
+.recieve .avtar {
+  order: 0;
+}
+
+.send {
+  align-self: flex-end;
+  background-color: rgb(245, 242, 214);
+}
+.recieve {
+  background-color: rgb(220, 240, 243);
+}
+
+.message-text {
+  margin: 1px;
+}
