@@ -29,6 +29,7 @@ function App() {
       .finally(() => {
         setLoading(false);
       });
+    inputRef.current.value = "";
   };
 
   const renderContent = (qna) => {
